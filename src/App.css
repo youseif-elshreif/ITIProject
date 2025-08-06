@@ -1,0 +1,44 @@
+:root {
+  /* Primary Colors */
+  --primary-50: #eff6ff;
+  --primary-100: #dbeafe;
+  --primary-500: #3b82f6;
+  --primary-600: #2563eb;
+  --primary-700: #1d4ed8;
+
+  /* Gray Colors */
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-300: #d1d5db;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+
+  /* Success Colors */
+  --green-100: #dcfce7;
+  --green-600: #16a34a;
+
+  /* Purple Colors */
+  --purple-100: #f3e8ff;
+  --purple-600: #9333ea;
+
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-gradient-from: #eff6ff;
+  --bg-gradient-to: #e0e7ff;
+
+  /* Text Colors */
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --text-white: #ffffff;
+
+  /* Button Colors */
+  --btn-primary-bg: var(--primary-600);
+  --btn-primary-hover: var(--primary-700);
+  --btn-secondary-bg: var(--bg-primary);
+  --btn-secondary-hover: var(--primary-50);
+  --btn-danger-bg: #dc2626;
+  --btn-danger-hover: #b91c1c;
+}

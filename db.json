@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "dda5",
+      "username": "Youseif-Elshreif",
+      "password": "123456"
+    },
+    {
+      "id": "5daf",
+      "username": "YouseifElshreif",
+      "password": "123456"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1754498446665",
+      "title": "test2",
+      "description": "12",
+      "priority": "high",
+      "dueDate": "2026-11-06",
+      "userId": 5,
+      "status": "pending"
+    },
+    {
+      "id": "1754506252660",
+      "title": "test",
+      "description": "",
+      "priority": "medium",
+      "dueDate": "2026-08-06",
+      "userId": "dda5",
+      "status": "completed"
+    },
+    {
+      "id": "1754506263351",
+      "title": "true",
+      "description": "test",
+      "priority": "high",
+      "dueDate": "2026-08-06",
+      "userId": "dda5",
+      "status": "pending"
+    }
+  ]
+}
