@@ -12,8 +12,6 @@ const Login = () => {
 
   const { login: setUser } = useAuth();
 
-  console.log("useAuth result:", { setUser, type: typeof setUser });
-
   const handleLogin = async (values) => {
     setIsLoading(true);
     setError(""); // مسح الأخطاء السابقة
@@ -22,21 +20,19 @@ const Login = () => {
       // التحقق من وجود البيانات قبل الوصول إليها
       if (response && response.data) {
         setUser(response.data);
-        console.log("Login Successful ✅");
         navigate("/dashboard"); // توجيه إلى صفحة Dashboard
       } else {
         throw new Error("Invalid response from server");
       }
     } catch (error) {
       setError(error.message || "Login failed. Please try again.");
-      console.error("Login Error:", error);
     } finally {
       setIsLoading(false);
     }
   };
   return (
     <div
-      className="min-h-screen flex items-center justify-center px-4"
+      className="h-[calc(100vh-64px-52px)] flex items-center justify-center px-4"
       style={{ backgroundColor: "var(--color-bg)" }}
     >
       <div

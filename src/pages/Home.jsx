@@ -6,14 +6,14 @@ const Home = () => {
 
   return (
     <div
-      className="min-h-screen"
+      className="h-[calc(100vh-64px-52px)]"
       style={{
         backgroundColor: "var(--color-bg)",
         color: "var(--color-text-main)",
       }}
     >
       {/* Hero Section */}
-      <div className="max-w-5xl mx-auto px-6 py-20 text-center">
+      <div className="max-w-5xl mx-auto px-6 py-10 text-center">
         <h1 className="text-5xl font-bold mb-4">
           Boost Your Productivity with{" "}
           <span style={{ color: "var(--color-primary)" }}>TodoApp</span>

@@ -111,7 +111,7 @@ const Dashboard = () => {
         )
       );
     } catch (error) {
-      console.error("Error toggling todo:", error);
+      // Handle error silently or show user-friendly error
     }
   };
 
@@ -134,7 +134,7 @@ const Dashboard = () => {
       setIsDeleteModalOpen(false);
       setTodoToDelete(null);
     } catch (error) {
-      console.error("Error deleting todo:", error);
+      // Handle error silently or show user-friendly error
     }
   };
 
@@ -154,7 +154,7 @@ const Dashboard = () => {
       setAllTodos((prevTodos) => [...prevTodos, createdTodo]);
       setIsAddFormOpen(false);
     } catch (error) {
-      console.error("Error creating todo:", error);
+      // Handle error silently or show user-friendly error
     }
   };
 
@@ -177,7 +177,7 @@ const Dashboard = () => {
       setIsEditFormOpen(false);
       setEditingTodo(null);
     } catch (error) {
-      console.error("Error updating todo:", error);
+      // Handle error silently or show user-friendly error
     }
   };
 

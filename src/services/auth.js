@@ -21,10 +21,10 @@ export const login = async (credentials) => {
 
       return { data: userWithToken };
     } else {
-      throw new Error("Invalid credentials");
+      throw new Error("user not found");
     }
   } catch (error) {
-    if (error.message === "Invalid credentials") {
+    if (error.message === "user not found") {
       throw error;
     }
     throw new Error("Login failed. Please try again.");

@@ -4,7 +4,7 @@ import { FaExclamationTriangle, FaHome, FaArrowLeft } from "react-icons/fa";
 const NotFound = () => {
   return (
     <div
-      className="min-h-screen flex items-center justify-center px-4"
+      className="h-[calc(100vh-64px-52px)] flex items-center justify-center px-4"
       style={{
         backgroundColor: "var(--color-bg)",
         color: "var(--color-text-main)",
