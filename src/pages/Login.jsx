@@ -32,7 +32,7 @@ const Login = () => {
   };
   return (
     <div
-      className="h-[calc(100vh-64px-52px)] flex items-center justify-center px-4"
+      className="min-h-[calc(100vh-64px-52px)] flex items-center justify-center px-4"
       style={{ backgroundColor: "var(--color-bg)" }}
     >
       <div

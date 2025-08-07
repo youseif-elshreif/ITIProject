@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <div
-      className="h-[calc(100vh-64px-52px)]"
+      className="min-h-[calc(100vh-64px-52px)]"
       style={{
         backgroundColor: "var(--color-bg)",
         color: "var(--color-text-main)",
