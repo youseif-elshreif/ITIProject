@@ -234,7 +234,7 @@ const Dashboard = () => {
                   className="text-2xl font-bold"
                   style={{ color: "var(--text-primary)" }}
                 >
-                  Welcome back, {user?.username || "User"}!
+                  Welcome , {user?.username || "User"}!
                 </h2>
                 <p style={{ color: "var(--text-secondary)" }}>
                   Ready to manage your tasks today?
