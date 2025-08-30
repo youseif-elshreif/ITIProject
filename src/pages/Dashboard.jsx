@@ -110,7 +110,7 @@ const Dashboard = () => {
             : t
         )
       );
-    } catch (error) {
+    } catch {
       // Handle error silently or show user-friendly error
     }
   };
@@ -133,7 +133,7 @@ const Dashboard = () => {
       );
       setIsDeleteModalOpen(false);
       setTodoToDelete(null);
-    } catch (error) {
+    } catch {
       // Handle error silently or show user-friendly error
     }
   };
@@ -153,7 +153,7 @@ const Dashboard = () => {
       // إضافة المهمة الجديدة للبيانات المحلية
       setAllTodos((prevTodos) => [...prevTodos, createdTodo]);
       setIsAddFormOpen(false);
-    } catch (error) {
+    } catch {
       // Handle error silently or show user-friendly error
     }
   };
@@ -176,7 +176,7 @@ const Dashboard = () => {
       );
       setIsEditFormOpen(false);
       setEditingTodo(null);
-    } catch (error) {
+    } catch {
       // Handle error silently or show user-friendly error
     }
   };
